@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "project": ["./tsconfig.json"]
+  },
+  "extends": [
+    "@myrotvorets/myrotvorets-ts"
+  ],
+  "env": {
+    "node": true
+  }
+}
