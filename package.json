@@ -16,7 +16,7 @@
     "playwright": "^1.45.3"
   },
   "devDependencies": {
-    "@myrotvorets/eslint-config-myrotvorets-ts": "^2.26.0",
+    "@myrotvorets/eslint-config-myrotvorets-ts": "^3.0.0",
     "@types/node": "^22.1.0",
     "tsimp": "^2.0.11",
     "typescript": "^5.5.4"
