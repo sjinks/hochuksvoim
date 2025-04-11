@@ -5,7 +5,7 @@ import { createWriteStream } from 'node:fs';
 import { type LaunchOptions, chromium } from 'playwright';
 import { format } from '@fast-csv/format';
 import { Entity, Model } from '@alephdata/followthemoney';
-import defaultModel from '@alephdata/followthemoney/dist/defaultModel.json' assert { type: 'json' };
+import defaultModel from '@alephdata/followthemoney/dist/defaultModel.json' with { type: 'json' };
 import { hash } from 'node:crypto';
 import { DetailsPage } from './pom/details.mjs';
 import { ListingPage } from './pom/listing.mjs';
